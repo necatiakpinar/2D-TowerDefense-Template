@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa595ea0a2f432fa5f4a04cce82ea19, type: 3}
+  m_Name: BomberTowerData
+  m_EditorClassIdentifier: 
+  _towerType: 85211
+  _statsByLevel:
+  - _towerLevel: 0
+    _damageAmount: 10
+    _attackSpeed: 1.2
+  - _towerLevel: 1
+    _damageAmount: 25
+    _attackSpeed: 1.2
+  - _towerLevel: 2
+    _damageAmount: 35
+    _attackSpeed: 1
+  - _towerLevel: 3
+    _damageAmount: 45
+    _attackSpeed: 0.9
+  - _towerLevel: 4
+    _damageAmount: 60
+    _attackSpeed: 0.8
